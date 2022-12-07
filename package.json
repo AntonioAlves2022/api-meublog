@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev  --transpile-only --ignore-watch node_module --respawn src/index.ts"
+    "dev": "ts-node-dev  --transpile-only --ignore-watch node_module --respawn src/index.ts",
+    "build":"tsc --build"
   },
   "keywords": [],
   "author": "",
